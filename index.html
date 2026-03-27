@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ob havo malumotlari</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="main">
+
+    <div>
+      <h1 id="cityName"> Ob-havo ma'lumotlari</h1>
+      <p id="desc" class="desc">Holat</p>
+    </div>
+    <p id="temp" class="temp">_ _ °C</p>
+    <div class="line"></div>
+    <div class="double">
+      <p id="feels-like">His qilinishi</p>
+      <p id="humidity" class="humidity">Namlik</p>
+
+    </div>
+    <div class="double">
+      <p id="wind-dir" class="wind-dir">Shamol yo'nalishi</p>
+      <p id="wind-speed" class="wind-speed">Shamol tezligi</p>
+    </div>
+    <div class="line"></div>
+    <div class="double">
+      <p id="sunrise" class="sunrise">Quyosh chiqishi</p>
+      <p id="sunset" class="sunset">Quyosh botishi</p>
+    </div>
+
+  </div>
+  <div class="place">
+    <div class="double">
+      <button data-city="Nukus">Qoraqalpog'iston</button>
+      <button data-city="Andijon">Andijon</button>
+      <button data-city="Buxoro">Buxoro</button>
+      <button data-city="Jizzax">Jizzax</button>
+    </div>
+    <div class="double">
+      <button data-city="Qashqadaryo">Qashqadaryo</button>
+      <button data-city="Navoiy">Navoiy</button>
+      <button data-city="Namangan">Namangan</button>
+      <button data-city="Samarqand">Samarqand</button>
+    </div>
+    <div class="double">
+      <button data-city="Termez">Surxondaryo</button>
+      <button data-city="Sirdaryo">Sirdaryo</button>
+      <button data-city="Toshkent viloyati">Toshkent viloyati</button>
+      <button data-city="Fargona">Farg‘ona</button>
+    </div>
+    <button data-city="Urgench">Xorazm</button>
+    <button data-city="Toshkent">Toshkent</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
